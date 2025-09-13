@@ -33,7 +33,7 @@ public class CalcularFibonacci {
 		}
 		
 		valor = fibonacci.get(fibonacci.size() - 1);
-		n = this.n;
+		this.n = n;
 	}
 
 	@Override
