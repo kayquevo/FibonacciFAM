@@ -2,18 +2,19 @@ package services;
 
 import java.util.ArrayList;
 
-public class CalcularFibonacci {
+public class CalcularFibonacciIT {
 
-	private Integer valor;
-	private Integer n = 0;
+	protected Integer valor;
+	protected Integer n = 0;
 	
-	private ArrayList<Integer> fibonacci = new ArrayList<>();
+	protected ArrayList<Integer> fibonacci = new ArrayList<>();
 	
-	public CalcularFibonacci() {
+	
+	public CalcularFibonacciIT() {
 		
 	}
 	
-	public void Calcular(int n) {
+	public void CalcularIT(int n) {
 		if (n <= 0) {
 			System.out.println("O número de termos deve ser maior que 0");
 		}
@@ -35,10 +36,18 @@ public class CalcularFibonacci {
 		valor = fibonacci.get(fibonacci.size() - 1);
 		this.n = n;
 	}
-
+	
+	public void Sequencia() {
+		for(int i = 1 ; i < fibonacci.size(); i++) {
+			System.out.println("F(" + i + ") = " + fibonacci.get(i - 1));
+		}
+		
+	}
+	
 	@Override
 	public String toString() {
 		return "F(" + n + ") = " + valor;
 	}
+	
 	
 }
