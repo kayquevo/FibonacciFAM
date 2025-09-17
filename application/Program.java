@@ -3,6 +3,7 @@ package application;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
+import services.CalcularFibonacciBI;
 import services.CalcularFibonacciIT;
 import services.CalcularFibonacciRe;
 
@@ -12,10 +13,13 @@ public class Program {
 		
 		CalcularFibonacciIT cfi = new CalcularFibonacciIT();
 		CalcularFibonacciRe cfr = new CalcularFibonacciRe();
+		CalcularFibonacciBI cfb = new CalcularFibonacciBI();
 
 		try {
+			System.out.println("***SEQUÊNCIA DE FIBONACCI***");
 			System.out.print("Digite o termo n da sequência: ");
 			int n = sc.nextInt();
+			
 			System.out.println();
 			
 			System.out.println("Solução Iterativa");
@@ -29,7 +33,11 @@ public class Program {
 			
 			System.out.println("--------------------------------");
 			
-			System.out.println("Mostrar sequência?(s/n): ");
+			System.out.println("Solução Binet");
+			System.out.println("F(" + n + ") = " + cfb.CalcularBinet(n));
+			System.out.println("--------------------------------");
+			
+			System.out.print("Mostrar sequência?(s/n): ");
 			char resposta = sc.next().charAt(0);
 			
 			if(resposta == 's') {

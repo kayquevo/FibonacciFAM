@@ -3,11 +3,12 @@ package services;
 import java.util.ArrayList;
 
 public class CalcularFibonacciIT {
+	//Iterativa
 
-	protected Integer valor;
-	protected Integer n = 0;
+	private Integer valor;
+	private Integer n = 0;
 	
-	protected ArrayList<Integer> fibonacci = new ArrayList<>();
+	private ArrayList<Integer> fibonacci = new ArrayList<>();
 	
 	
 	public CalcularFibonacciIT() {
