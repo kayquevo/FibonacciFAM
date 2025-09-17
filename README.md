@@ -58,6 +58,19 @@
 </ol>
 
 ---
+### Referencias
+
+<p>
+        <strong>DevMedia</strong>. Sequência de Fibonacci em Java. 2012.<br>
+        Disponível em: <a href="https://www.devmedia.com.br/sequencia-de-fibonacci-em-java/23620">https://www.devmedia.com.br/sequencia-de-fibonacci-em-java/23620</a>
+    </p>
+
+<p>
+        <strong>Matemática com Cristiano Marcell</strong>. A FÓRMULA PARA DETERMINAR QUALQUER TERMO DA SEQUÊNCIA FIBONACCI. 2021. YouTube.<br>
+        Disponível em: <a href="https://www.youtube.com/watch?v=rF4VGqwSTLc">https://www.youtube.com/watch?v=rF4VGqwSTLc</a>
+    </p>
+   
+---
 
 ### 🛠️ Tecnologias Utilizadas
 
