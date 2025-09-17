@@ -1,3 +1,18 @@
-# Atividade Fibonacci - Solução Iterativa
+# Atividade Fibonacci - 23/09
 
-<img src="imagem/console.jpg" alt="">
+---
+
+### 🖥️ Leitura no console
+
+
+<img src="imagem/console2.jpg" width="300px">
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- Java
+- Eclipse IDE
+- Git & GitHub
+
+---
