@@ -4,7 +4,7 @@
 
 ### 🖥️ Leitura no console
 
-<img src="imagem/console3.jpg" width="300px">
+<img src="imagem/console4.jpg" width="300px">
 
 ---
 
@@ -61,17 +61,21 @@
 ### Referencias
 
 <p>
-        <strong>DevMedia</strong>. Sequência de Fibonacci em Java. 2012.<br>
-        Disponível em: <a href="https://www.devmedia.com.br/sequencia-de-fibonacci-em-java/23620">https://www.devmedia.com.br/sequencia-de-fibonacci-em-java/23620</a>
-    </p>
+        DevMedia. Sequência de Fibonacci em Java. 2012.<br>
+        Disponível em: <a href="https://www.devmedia.com.br/sequencia-de-fibonacci-em-java/23620">https://www.devmedia.com.br/sequencia-de-fibonacci-em-java/23620</a>
+    </p>
 
 <p>
-        <strong>Matemática com Cristiano Marcell</strong>. A FÓRMULA PARA DETERMINAR QUALQUER TERMO DA SEQUÊNCIA FIBONACCI. 2021. YouTube.<br>
-        Disponível em: <a href="https://www.youtube.com/watch?v=rF4VGqwSTLc">https://www.youtube.com/watch?v=rF4VGqwSTLc</a>
-    </p>
-   
----
+        Matemática com Cristiano Marcell. A FÓRMULA PARA DETERMINAR QUALQUER TERMO DA SEQUÊNCIA FIBONACCI. 2021. YouTube.<br>
+        Disponível em: <a href="https://www.youtube.com/watch?v=rF4VGqwSTLc">https://www.youtube.com/watch?v=rF4VGqwSTLc</a>
+    </p>
 
+<p>
+        GUJ - Java Users' Group. Medir o tempo de execução de um método.<br>
+        Disponível em: <a href="https://www.guj.com.br/t/medir-o-tempo-de-execucao-de-um-metodo/34531">https://www.guj.com.br/t/medir-o-tempo-de-execucao-de-um-metodo/34531</a>
+    </p>
+    
+---
 ### 🛠️ Tecnologias Utilizadas
 
 <ul>
