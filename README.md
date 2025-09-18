@@ -4,7 +4,7 @@
 
 ### 🖥️ Leitura no console
 
-<img src="imagem/console3.jpg" width="300px">
+<img src="imagem/console4.jpg" width="300px">
 
 ---
 
