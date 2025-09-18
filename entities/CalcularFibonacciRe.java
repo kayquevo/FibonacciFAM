@@ -1,6 +1,6 @@
-package services;
+package entities;
 
-public class CalcularFibonacciRe {
+public class CalcularFibonacciRe{
 	//Recursiva
 	
 	public CalcularFibonacciRe() {

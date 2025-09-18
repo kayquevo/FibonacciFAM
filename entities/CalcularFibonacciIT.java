@@ -1,4 +1,4 @@
-package services;
+package entities;
 
 import java.util.ArrayList;
 
@@ -16,6 +16,8 @@ public class CalcularFibonacciIT {
 	}
 	
 	public void CalcularIT(int n) {
+
+		
 		if (n <= 0) {
 			System.out.println("O número de termos deve ser maior que 0");
 		}
@@ -36,6 +38,9 @@ public class CalcularFibonacciIT {
 		
 		valor = fibonacci.get(fibonacci.size() - 1);
 		this.n = n;
+		
+		long tempoFinal = System.currentTimeMillis();
+		
 	}
 	
 	public void Sequencia() {
