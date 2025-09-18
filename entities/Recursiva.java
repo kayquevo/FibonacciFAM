@@ -1,9 +1,9 @@
 package entities;
 
-public class CalcularFibonacciRe{
+public class Recursiva{
 	//Recursiva
 	
-	public CalcularFibonacciRe() {
+	public Recursiva() {
 		
 	}
 	

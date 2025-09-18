@@ -1,6 +1,6 @@
 package entities;
 
-public class CalcularFibonacciBI {
+public class Binet {
 	//Binet
 	
 	public static long CalcularBinet(int n) {

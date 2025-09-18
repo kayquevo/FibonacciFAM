@@ -3,45 +3,46 @@ package application;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-import entities.CalcularFibonacciBI;
-import entities.CalcularFibonacciIT;
-import entities.CalcularFibonacciRe;
+import entities.Binet;
+import entities.Iterativa;
+import entities.Recursiva;
 import services.MedirTempo;
 
 public class Program {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
-		CalcularFibonacciIT cfi = new CalcularFibonacciIT();
-		CalcularFibonacciRe cfr = new CalcularFibonacciRe();
-		CalcularFibonacciBI cfb = new CalcularFibonacciBI();
-		
-
 		try {
 			System.out.println("***SEQUÊNCIA DE FIBONACCI***");
 			System.out.print("Digite o termo n da sequência: ");
 			int n = sc.nextInt();
 			
 			System.out.println();
+			
+			Iterativa i = new Iterativa();
 			System.out.println("Solução Iterativa");
-			cfi.CalcularIT(n);
-			System.out.println(cfi);
-			System.out.println("--------------------------------");
-			System.out.println("Solução Recursiva");
-			System.out.println("F(" + n + ") = " + cfr.CalcularRE(n));
-			System.out.println("--------------------------------");
-			System.out.println("Solução Binet");
-			System.out.println("F(" + n + ") = " + cfb.CalcularBinet(n));
+			i.CalcularIT(n);
+			System.out.println(i);
 			System.out.println("--------------------------------");
 			
+			Recursiva r = new Recursiva();
+			System.out.println("Solução Recursiva");
+			System.out.println("F(" + n + ") = " + r.CalcularRE(n));
+			System.out.println("--------------------------------");
+			
+			Binet b = new Binet();
+			System.out.println("Solução Binet");
+			System.out.println("F(" + n + ") = " + b.CalcularBinet(n));
+			System.out.println("--------------------------------");
+	
+			MedirTempo mt = new MedirTempo();
 			
 			System.out.print("Mostrar sequência?(s/n): ");
 			char resposta = sc.next().charAt(0);
 			
-			
 			if(resposta == 's') {
-				cfi.Sequencia();
-				System.out.println(cfi);
+				i.Sequencia();
+				System.out.println(i);
 			}
 			
 			System.out.println("--------------------------------");
@@ -49,7 +50,6 @@ public class Program {
 			char resposta2 = sc.next().charAt(0);
 			
 			if(resposta2 == 's') {
-				MedirTempo mt = new MedirTempo();
 				System.out.println();
 				mt.tempo(n);
 			}

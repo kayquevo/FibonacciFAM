@@ -2,16 +2,16 @@ package entities;
 
 import java.util.ArrayList;
 
-public class CalcularFibonacciIT {
+public class Iterativa {
 	//Iterativa
 
-	private Integer valor;
-	private Integer n = 0;
+	protected Integer valor;
+	protected Integer n = 0;
 	
-	private ArrayList<Integer> fibonacci = new ArrayList<>();
+	protected ArrayList<Integer> fibonacci = new ArrayList<>();
 	
 	
-	public CalcularFibonacciIT() {
+	public Iterativa() {
 		
 	}
 	
@@ -49,11 +49,12 @@ public class CalcularFibonacciIT {
 		}
 		
 	}
-	
+		
 	@Override
 	public String toString() {
 		return "F(" + n + ") = " + valor;
 	}
+	
 	
 	
 }

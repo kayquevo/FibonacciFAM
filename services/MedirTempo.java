@@ -1,20 +1,19 @@
 package services;
 
-import entities.CalcularFibonacciBI;
-import entities.CalcularFibonacciIT;
-import entities.CalcularFibonacciRe;
+import entities.Binet;
+import entities.Iterativa;
+import entities.Recursiva;
 
-public class MedirTempo {
+public class MedirTempo  {
 	
 	public MedirTempo() {
 		
 	}
 	
 	public void tempo(int n) {
-		
-		CalcularFibonacciIT cfi = new CalcularFibonacciIT();
-		CalcularFibonacciRe cfr = new CalcularFibonacciRe();
-		CalcularFibonacciBI cfb = new CalcularFibonacciBI();
+		Iterativa cfi = new Iterativa();
+		Recursiva cfr = new Recursiva();
+		Binet cfb = new Binet();
 		
 		long startIt = System.nanoTime();
         cfi.CalcularIT(n);
