@@ -58,6 +58,53 @@
 </ol>
 
 ---
+
+<h4>Tempos de Execução (em segundos)</h4>
+        <table class="performance-table">
+            <thead>
+                <tr>
+                    <th>N</th>
+                    <th>Iterativa</th>
+                    <th>Recursiva</th>
+                    <th>Binet</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>10</td>
+                    <td>0.0288</td>
+                    <td>0.0453</td>
+                    <td class="binet">0.0083</td>
+                </tr>
+                <tr>
+                    <td>20</td>
+                    <td>0.0383</td>
+                    <td>0.178</td>
+                    <td class="binet">0.0094</td>
+                </tr>
+                <tr>
+                    <td>30</td>
+                    <td>0.0439</td>
+                    <td class="recursiva">7.6597</td>
+                    <td class="binet">0.0327</td>
+                </tr>
+                <tr>
+                    <td>40</td>
+                    <td>0.053</td>
+                    <td class="recursiva">485.0371</td>
+                    <td class="binet">0.0169</td>
+                </tr>
+                <tr>
+                    <td>50</td>
+                    <td>0.0936</td>
+                    <td class="recursiva">4839.2023</td>
+                    <td class="binet">0.0229</td>
+                </tr>
+</tbody>
+</table>
+
+
+
 ### Referencias
 
 <p>
@@ -74,8 +121,9 @@
         GUJ - Java Users' Group. Medir o tempo de execução de um método.<br>
         Disponível em: <a href="https://www.guj.com.br/t/medir-o-tempo-de-execucao-de-um-metodo/34531">https://www.guj.com.br/t/medir-o-tempo-de-execucao-de-um-metodo/34531</a>
     </p>
-    
+ 
 ---
+
 ### 🛠️ Tecnologias Utilizadas
 
 <ul>
