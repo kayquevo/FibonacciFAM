@@ -3,13 +3,11 @@ package entities;
 import java.util.ArrayList;
 
 public class Iterativa {
-	//Iterativa
-
-	protected Integer valor;
-	protected Integer n = 0;
 	
-	protected ArrayList<Integer> fibonacci = new ArrayList<>();
+	private Integer valor;
+	private Integer n = 0;
 	
+	private ArrayList<Integer> fibonacci = new ArrayList<>();
 	
 	public Iterativa() {
 		

@@ -1,7 +1,6 @@
 package entities;
 
 public class Recursiva{
-	//Recursiva
 	
 	public Recursiva() {
 		

@@ -1,7 +1,6 @@
 package entities;
 
 public class Binet {
-	//Binet
 	
 	public static long CalcularBinet(int n) {
 		double phi = (1 + Math.sqrt(5)) / 2;
