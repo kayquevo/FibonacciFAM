@@ -24,7 +24,7 @@
 
 <p>Esta terceira abordagem oferece uma solução direta e elegante, eliminando a necessidade de estruturas de repetição ou recursão. É baseada na fórmula de Binet, que permite o cálculo de qualquer termo da sequência de Fibonacci de forma fechada.</p>
 
-<img src="imagem/formula.jpg" width="420px">
+<img src="imagem/formula1.jpg" width="420px">
 
 <p>O que em Java seria:</p>
 
@@ -99,7 +99,7 @@
     </tbody>
 </table>
 
-Foram realizados testes no código C++ para n = 10, 20, 30, 35, 40.
+Foram realizados testes no código Java para n = 10, 20, 30, 35, 40.
 Os tempos variam conforme o computador, mas seguem a mesma tendência.
 
 Ao implementar os algoritmos de Fibonacci em diferentes linguagens, é possível perceber características distintas que influenciam no desenvolvimento e desempenho: Python, C++, Java.
