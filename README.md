@@ -99,7 +99,7 @@
     </tbody>
 </table>
 
-Foram realizados testes no código Java para n = 10, 20, 30, 35, 40.
+Foram realizados testes no código Java para n-ésimo = 10, 20, 30, 35, 40.
 Os tempos variam conforme o computador, mas seguem a mesma tendência.
 
 Ao implementar os algoritmos de Fibonacci em diferentes linguagens, é possível perceber características distintas que influenciam no desenvolvimento e desempenho: Python, C++, Java.
