@@ -44,7 +44,7 @@
 
 ---
 
-### Análise de Complexidade
+### Análise de Matemática 
 
 | Algoritmo | Complexidade de Tempo | Complexidade de Espaço | Observação |
 |---|---|---|---|
