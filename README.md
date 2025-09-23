@@ -106,6 +106,13 @@ Ao implementar os algoritmos de Fibonacci em diferentes linguagens, é possível
 
 Python é excelente para rapidez no desenvolvimento e clareza de código, mas pode ter desempenho menor em aplicações que exigem muita performance. A C++ é a melhor opção quando a performance máxima é prioridade, mesmo que o código seja mais difícil de escrever. Java equilibra desempenho, portabilidade e segurança, sendo ideal para sistemas grandes e multiplataforma.
 
+<h3 class="text-xl font-bold mt-6 mb-2">Links dos repositórios:</h3>
+            <ul class="list-disc list-inside space-y-1">
+                <li><strong class="font-bold">Java</strong>: <a href="https://github.com/kayquevo/FibonacciFAM" class="text-blue-600 hover:underline">https://github.com/kayquevo/FibonacciFAM</a></li>
+                <li><strong class="font-bold">Python</strong>: <a href="https://github.com/stabilegustavo/fibonacci" class="text-blue-600 hover:underline">https://github.com/stabilegustavo/fibonacci</a></li>
+                <li><strong class="font-bold">C++</strong>: <a href="https://github.com/kayquevo/fibonacciC" class="text-blue-600 hover:underline">https://github.com/kayquevo/fibonacciC</a></li>
+            </ul>
+
 ---
 
 ### 🖥️ Leitura no console
