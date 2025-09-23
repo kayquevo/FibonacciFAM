@@ -55,7 +55,7 @@
 ---
 
 <h4>Análise Empírica</h4>
-<h4>Tempos de Execução (em segundos)</h4>
+<h4>Tempos de Execução (em milisegundos)</h4>
 <table class="performance-table">
     <thead>
         <tr>
